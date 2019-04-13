@@ -1,0 +1,243 @@
+body{
+    background-color:#ddd;
+    margin: 0 0 0 0;
+}
+
+
+
+/*Fejléc + Menüsor*/
+header{
+    margin: 0;
+}
+
+header img{
+    width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top:0;
+}
+
+ul li{
+    float: left;
+}
+ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkred;
+}
+
+.three{
+  display: none;
+}
+
+
+/*Menüsor reszponzív nézete*/
+@media only screen and (max-width: 1000px) {   
+    .three{
+        display: inline;
+        float: left;
+        font-size: 20px;
+    }
+    
+    .one{
+        display: none;
+    }
+    
+    /*<500, navbar dropdown*/
+    ul.topnav.responsive{
+        position: sticky;
+    }
+    
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+        font-size: 20px;
+    }
+    
+    ul.topnav.responsive li a{
+        display: list-item;
+
+    }
+    
+   ul.topnav.responsive li.three{
+        position: absolute;
+        top: 0;
+       left: 0;
+       font-size: 20px;
+    }
+    
+}
+
+
+
+
+/*Google Searchbar*/
+.main{
+    float: right;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    width: 250px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+input:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+input:focus{
+    border-color:#4d90fe;
+}
+
+input[type="submit"] {
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    width: 80px;
+    padding: 0 16px;
+    height:36px;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p,h1 {
+    text-align: center;
+}
+
+#content{
+    width: 100%;
+    font-size: 20px;
+    background-image: url("images/auto.jpg");
+}
+
+
+iframe{
+    width: 570px; 
+    height: 323px;
+} 
+
+
+#adatok{
+    font-size: 20px;
+}
+
+
+
+
+.w3-container{
+    background-color:#333;
+    height: 180px;
+}
+
+.w3-container table{
+    margin-top: 20px;
+}
+
+.w3-container table tr td{
+    text-align: center;
+    font-size: 30px; 
+    letter-spacing: 6px; 
+    font-weight: bold; 
+    color: white;
+}
+
+.w3-container table tr td img{
+    height: 40%;
+    width: 32%;
+}
+
+#insta{
+    text-align: right;
+}
+
+#youtube{
+    text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+h1{ font-size: 30px; letter-spacing: 6px; font-weight: bold;}
+  
+    #nav ul li{
+        font-size: 15px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+  .w3-container table tr td img{
+    height: 37%;
+    width: 29%;
+}
+    
+    .w3-container{
+    height: 180px;
+}
+    
+   .w3-container table{
+    margin-top: 30px;
+} 
+}
+
+
+@media only screen and (max-width: 500px) {
+    
+    .w3-container table tr td img{
+    height: 34%;
+    width: 32%;
+}
+    
+    .w3-container{
+    height: 170px;
+}
+    
+   .w3-container table{
+    margin-top: 0px;
+}
+    .w3-container tr td{
+        font-size: 1px;
+    }
+}
