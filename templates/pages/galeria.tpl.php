@@ -51,7 +51,7 @@
         
         div#galeria {margin: 0 auto; width: 100%; }
         div.kep { display: inline-block; }
-        div.kep img { width: 200px; }
+        div.kep img { height: 200px; }
     </style>
     
 </head>

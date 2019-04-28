@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Kapcsolat</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script type="text/javascript" src="../js/main.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
     <h1>Kapcsolat</h1>
@@ -19,7 +19,7 @@
             <br/>
              Üzenet (kötelező): 
             <br/>
-            <label> <textarea id="szoveg" name="szoveg" cols="40" rows="10"></textarea></label>
+            <label> <textarea id="szoveg" name="uzenet" cols="40" rows="10"></textarea></label>
             <br/>
             <input id="kuld" type="submit" value="Küld">
             <button onclick="ellenoriz();" type="button">Ellenőriz</button>

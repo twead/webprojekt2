@@ -19,6 +19,7 @@ $oldalak = array(
 	'galeria' => array('fajl' => 'galeria', 'szoveg' => 'GALÉRIA', 'menun' => array(1,1)),
 	'tamogatas' => array('fajl' => 'tamogatas', 'szoveg' => 'TÁMOGATÁS', 'menun' => array(1,1)),
     'kapcsolat' => array('fajl' => 'kapcsolat', 'szoveg' => 'KAPCSOLAT', 'menun' => array(1,1)),
+    'uzenetek' => array('fajl' => 'uzenetek', 'szoveg' => 'ÜZENETEK', 'menun' => array(1,1)),
     'belepes' => array('fajl' => 'belepes', 'szoveg' => 'BELÉPÉS', 'menun' => array(1,0)),
     'kilepes' => array('fajl' => 'kilepes', 'szoveg' => 'KILÉPÉS', 'menun' => array(0,1)),
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
@@ -29,7 +30,6 @@ $oldalak = array(
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
 
 
-
 /*Galéria*/
 $MAPPA = './pictures/';
 $TIPUSOK = array ('.jpg', '.png');
@@ -37,3 +37,4 @@ $MEDIATIPUSOK = array('image/jpeg', 'image/png');
 $DATUMFORMA = "Y.m.d. H:i";
 $MAXMERET = 500*1024;
 ?>
+
