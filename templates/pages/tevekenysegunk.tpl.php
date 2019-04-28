@@ -1,3 +1,4 @@
+<div class="container" style="margin-top:30px">
 <h1>Tevékenységünk</h1>
 
 <p>Közhasznú Alapítványunk a korszerű gyermek-mentőellátás hazai elterjesztésén fáradozik. Az Országos Mentőszolgálattal (OMSZ) szoros együttműködésben Gyermek Mentőorvosi Kocsikat (Gyermek MOK) üzemeltetünk. Alapítványunk indította útjára az ország első Gyermek Mentőorvosi Kocsiját 2005-ben. Több korszerű mentési eszközt, műszer használatát, eljárást vezettünk be Magyarországon.</p>
@@ -21,3 +22,4 @@
 </div>
 
 <p><a href="tamogatas">Kérjük, támogassa Alapítványunkat</a>, hogy a jövőben is biztosítani tudjuk a korszerű felszerelést, szakmai tudást az erre rászoruló gyermekeknek.</p>
+</div>

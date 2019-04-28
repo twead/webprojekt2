@@ -3,8 +3,6 @@ body{
     margin: 0 0 0 0;
 }
 
-
-
 /*Fejléc + Menüsor*/
 header{
     margin: 0;
@@ -19,45 +17,42 @@ ul{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top:0;
 }
 
 ul li{
     float: left;
+    text-decoration: none;
 }
+
 ul li a{
   display: block;
   color: white;
   text-align: center;
-  padding: 20px 20px;
+  padding: 10px 10px;
+  margin: 0;
+  text-decoration: none;
+    list-style-type: none;
+}
+
+.nav-item{
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: darkred;
-}
-
-.three{
+#three{
   display: none;
 }
 
 
 /*Menüsor reszponzív nézete*/
 @media only screen and (max-width: 1000px) {   
-    .three{
+    #three{
         display: inline;
-        float: left;
         font-size: 20px;
     }
     
-    .one{
+    .nav-item{
         display: none;
     }
     
@@ -74,10 +69,9 @@ li a:hover:not(.active) {
     
     ul.topnav.responsive li a{
         display: list-item;
-
     }
     
-   ul.topnav.responsive li.three{
+   ul.topnav.responsive li #three{
         position: absolute;
         top: 0;
        left: 0;
@@ -90,15 +84,15 @@ li a:hover:not(.active) {
 
 
 /*Google Searchbar*/
-.main{
+.searchbar{
     float: right;
 }
 
 input{
     border: none;
-    padding: 10px;
-    margin: 10px;
-    height: 20px;
+    padding: 0px;
+    margin: 0px;
+    height: 40px;
     width: 250px;
     border:1px solid #eaeaea;
     outline:none;
@@ -131,16 +125,10 @@ input[type="submit"]:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.tamogatimg{
+    max-width:200px;
+    max-height:200px;
+}
 
 
 p,h1 {
@@ -150,7 +138,6 @@ p,h1 {
 #content{
     width: 100%;
     font-size: 20px;
-    background-image: url("images/auto.jpg");
 }
 
 
@@ -165,11 +152,13 @@ iframe{
 }
 
 
-
+#oldalramutat{
+    font-size: 10px;
+}
 
 .w3-container{
     background-color:#333;
-    height: 180px;
+    height: 190px;
 }
 
 .w3-container table{
@@ -214,7 +203,7 @@ h1{ font-size: 30px; letter-spacing: 6px; font-weight: bold;}
 }
     
     .w3-container{
-    height: 180px;
+    height: 190px;
 }
     
    .w3-container table{
@@ -231,7 +220,7 @@ h1{ font-size: 30px; letter-spacing: 6px; font-weight: bold;}
 }
     
     .w3-container{
-    height: 170px;
+    height: 180px;
 }
     
    .w3-container table{
